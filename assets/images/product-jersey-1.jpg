@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c14"/>
+      <stop offset="100%" stop-color="#161b2e"/>
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#7000ff"/>
+    </linearGradient>
+    <filter id="neon">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <!-- Cyber Grid -->
+  <path d="M0 100 H600 M0 200 H600 M0 300 H600 M0 400 H600 M0 500 H600" stroke="rgba(0,240,255,0.05)" stroke-width="1"/>
+  <path d="M100 0 V600 M200 0 V600 M300 0 V600 M400 0 V600 M500 0 V600" stroke="rgba(0,240,255,0.05)" stroke-width="1"/>
+  
+  <!-- Jersey Silhouette -->
+  <g filter="url(#neon)">
+    <path d="M 200 160 L 260 120 L 340 120 L 400 160 L 480 220 L 430 280 L 390 250 L 390 480 L 210 480 L 210 250 L 170 280 L 120 220 Z" fill="#121624" stroke="url(#cyan-glow)" stroke-width="4"/>
+    <path d="M 260 120 C 280 150 320 150 340 120" fill="none" stroke="#ff0055" stroke-width="4"/>
+    <!-- Stripes -->
+    <path d="M 210 320 L 390 320" stroke="#00f0ff" stroke-width="3" opacity="0.8"/>
+    <path d="M 210 340 L 390 340" stroke="#ff0055" stroke-width="3" opacity="0.8"/>
+    <!-- HORAA Text Logo -->
+    <text x="300" y="270" font-family="'Orbitron', sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">HORAA</text>
+    <text x="300" y="295" font-family="'Rajdhani', sans-serif" font-size="14" font-weight="700" fill="#00f0ff" text-anchor="middle" letter-spacing="6">PRO ESPORTS</text>
+  </g>
+</svg>

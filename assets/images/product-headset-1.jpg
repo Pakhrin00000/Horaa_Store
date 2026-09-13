@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#0a0c14"/>
+  <g transform="translate(120, 100)">
+    <!-- Headband -->
+    <path d="M 60 220 C 60 60 300 60 300 220" fill="none" stroke="#7000ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M 70 210 C 70 80 290 80 290 210" fill="none" stroke="#00f0ff" stroke-width="4"/>
+    <!-- Earcups -->
+    <rect x="30" y="200" width="55" height="110" rx="25" fill="#121624" stroke="#00f0ff" stroke-width="4"/>
+    <rect x="275" y="200" width="55" height="110" rx="25" fill="#121624" stroke="#00f0ff" stroke-width="4"/>
+    <circle cx="57" cy="255" r="18" fill="#ff0055"/>
+    <circle cx="302" cy="255" r="18" fill="#ff0055"/>
+    <!-- Mic Boom -->
+    <path d="M 50 280 C 40 350 140 370 180 340" fill="none" stroke="#00f0ff" stroke-width="5" stroke-linecap="round"/>
+    <rect x="175" y="325" width="25" height="15" rx="5" fill="#ff0055"/>
+  </g>
+  <text x="300" y="530" font-family="'Orbitron', sans-serif" font-size="20" font-weight="700" fill="#00f0ff" text-anchor="middle">HORAA QUANTUM 7.1 WIRELESS</text>
+</svg>
